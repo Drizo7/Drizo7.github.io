@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Adrian Kadya</title>
+    <link rel="stylesheet" type="text/css" href="src/css/style.css">
+	<link rel="stylesheet" type="text/css" href="src/fullpage/fullpage.min.css" />
+    <link rel="stylesheet" type="text/css" href="src/fullpage/examples.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div id="fullpage">
+          <ul id="myMenu">
+                    <li data-menuanchor="firstPage" class="active"><a href="#firstPage">First section</a></li>
+                    <li data-menuanchor="secondPage"><a href="#secondPage">Second section</a></li>
+                    <li data-menuanchor="thirdPage"><a href="#thirdPage">Third section</a></li>
+                    <li data-menuanchor="fourthPage"><a href="#fourthPage">Fourth section</a></li>
+          </ul>
+
+	<div class="section fp-auto-height-responsive" id="section0">
+            <div id="particles-js"></div> 
+            <h1 class="helloheading ">Hi, I'm</h1>
+            <h1 class="nameheading ">Adrian Kadya</h1>  
+    </div>
+
+	<div class="section" id="section1">
+            <h1 class="skills-heading">Skills</h1>
+            <div class="row skills-icons text-center">
+              <div class="col">
+                  <img src="./src/imgs/Mobile.png" class="img-fluid webimage">
+              </div>
+              <div class="col">
+                <img src="./src/imgs/content_creation.png" class="img-fluid">
+              </div>
+              <div class="col">
+                  <img src="./src/imgs/pen.png" class="img-fluid iotimage">
+              </div>
+            </div>
+              
+            <div class="row">
+              <div class="col">
+                  <p class="skills-para"> Mobile App Development</p>
+              </div>
+              <div class="col">
+                  <p class="skills-para">  Content Creation</p>
+              </div>
+              <div class="col">
+                  <p class="skills-para"> Penetration testing</p>
+              </div>
+            </div>
+    </div>
+    
+	<div class="section" id="section2">
+        <div class="row">
+            <div class="col">
+                <img class="responsive-slide-img" src="./src/imgs/responsive-device.png">
+            </div>
+            <div class="col responsive-texts">
+                    <h1 >Responsive Mobile Apps</h1>
+                    <p>Love Apps that work on all the devices of various dimensions?</p>
+                    <p>Need a secure App for your business?</p>
+                    <p>I'm your Guy.</p>
+                    <a href="portfolio.html" class="btn btn-success">More</button></a>
+            </div>
+        </div>
+    </div>
+	<div class="section text-center" id="contact-section">
+            <h1 class="text-center">Contact me!</h1>
+        <form class="text-center" autocomplete="off" action="https://formspree.io/adriankadyalunda@gmail.com" method="POST">
+                <input name="Name" type="text" class="form-control" placeholder="Name">
+                <input name="Email" type="email" class="form-control"  placeholder="Email">
+                <input name="Phone No" type="text" class="form-control" placeholder="Phone Number">
+                <textarea name="Message"  class="form-control" rows="3" placeholder="Message"></textarea>
+                    <button type="submit" class="btn btn-success">Submit</button>
+        </form>
+        <div class="social-media">
+            <a href="https://www.github.com/Drizo7/"><i class="fa fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/adrian-kadyalunda-9754a5258/"><i class="fa fa-linkedin"></i></a>
+            <a href="https://www.facebook.com/adrian.kadyalunda/"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.instagram.com/drizo_tha_plug/"><i class="fa fa-instagram"></i></a>
+        </div>
+        <div class="contact-info">
+            <a href="tel:991396706">+265-991396706</a>
+            <br>
+            <a href="mailto:adriankadyalunda@gmail.com">adriankadyalunda@gmail.com</a>
+        </div>
+    </div>
+</div>
+<div id="loading"></div>
+
+<script type="text/javascript" src="src/fullpage/fullpage.min.js"></script>
+<script type="text/javascript" src="src/fullpage/examples.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+<script>
+particlesJS("particles-js", particlesJSON)
+</script>
+</body>
+</html>
