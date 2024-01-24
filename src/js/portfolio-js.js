@@ -2,7 +2,7 @@ function desg() {
   var a;
   a = document.getElementById("designation");
   setTimeout(function () {
-      a.innerHTML = "I'm a Mobile Developer";
+      a.innerHTML = "I'm a Full-Stack Developer";
     }, 0);
   setTimeout(function () {
     a.innerHTML = "I'm a Digital Marketer";
